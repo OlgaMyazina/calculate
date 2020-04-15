@@ -1,0 +1,56 @@
+
+.data-element-wrapper{
+    background-color: #f2f2f2;
+}
+
+.data-element {
+    box-sizing: border-box;
+
+}
+
+.data-element__label {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: #838a96;
+    position: relative;
+    vertical-align: top;
+    white-space: nowrap;
+    border-radius: 2px;
+    padding: 1px 4px 0 2em;
+    margin-left: -4px;
+    width: 100%;
+    text-align: left;
+}
+
+.data-element__input {
+    border: none;
+    box-sizing: border-box;
+    color: #1c1e24;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 5px;
+    padding: 0 0 0 13px;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.data-element__close-button {
+    display: block;
+    position: absolute;
+    bottom: 13px;
+    right: 15px;
+    height: 16px;
+    width: 16px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: url("/public/assets/close.svg");
+}

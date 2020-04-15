@@ -1,0 +1,55 @@
+.table{
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: .07em;
+    border-collapse: collapse;
+}
+
+.table__header{
+    background-color: #f2f2f2;
+    height: 30px;
+    vertical-align: center;
+    color: #838a96;
+    font-weight: normal;
+}
+
+.table__row{
+    border-bottom: 1px solid #f2f2f2;
+    height: 25px;
+}
+
+.table__data{
+    padding: 0.5em;
+}
+
+.table__footer{
+    font-weight: bold;
+    height: 25px;
+}
+
+.date{
+    text-align: left;
+}
+
+.day{
+    width: 1.5em;
+    text-align: center;
+}
+
+.price{
+    width: 7em;
+    text-align: right;
+}
+
+.summary{
+    text-align: right;
+    width: 9em;
+}
+/*
+.header{
+    text-align: center;
+}*/
+
+
+
+
